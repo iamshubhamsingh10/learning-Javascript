@@ -3,3 +3,10 @@
 // that has the id="error".
 
 
+let errorParagraph = document.getElementById("error")
+console.log(errorParagraph)
+function purchase()
+{
+    console.log("button clicked")
+    errorParagraph.textContext="Something went wrong, please try agian"
+}
